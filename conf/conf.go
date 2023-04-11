@@ -26,7 +26,7 @@ const (
 	API_OAUTH_CLIENT_ACCESS_TOKEN = "/oauth/client_token/"
 
 	// API_VIDEO_LIST 查询授权账号视频数据
-	API_VIDEO_LIST = "/video/list/"
+	API_VIDEO_LIST = "/api/douyin/v1/video/video_list/"
 
 	// API_VIDEO_UPLOAD 上传视频到文件服务器
 	API_VIDEO_UPLOAD = "/video/upload/"
@@ -47,7 +47,7 @@ const (
 	API_VIDEO_DELETE = "/video/delete/"
 
 	// API_VIDEO_DATA 查询指定视频数据
-	API_VIDEO_DATA = "/video/data/"
+	API_VIDEO_DATA = "/api/douyin/v1/video/video_data/"
 
 	// API_VIDEO_SEARCH 关键词视频搜索
 	API_VIDEO_SEARCH = "/video/search/"
